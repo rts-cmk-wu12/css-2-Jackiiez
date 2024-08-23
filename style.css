@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+/* FLEX CLASSES: */
+[class*="flex"] {
+    padding:0 1%;
+}
+.flex1{
+	flex: 1;
+}
+.flex2{
+	flex: 2;
+}
+.flex3{
+	flex: 3;
+}
+.flex4{
+	flex: 4;
+}
+.flex5{
+	flex: 5;
+}
+.flex6{
+	flex: 6;
+}
+
+img {
+    
+    height: auto;
+    display: block;
+    object-fit: contain;
+   
+}
+
+#wrapper {
+    
+    margin: 0 auto;
+height: 1600px;
+font-family: "Open sans", sans-serif;
+}
+
+
+main {
+    display: grid;
+   
+    margin: 0 auto;
+
+}
+
+.pixels200{
+width: 200px;
+}
+
+.left{
+    margin-left: 1000px;
+    position: relative;
+    bottom: 2015px;
+    
+}
+#header {
+
+
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, auto);
+justify-content: space-between;
+width: 100%;
+
+}
+#header img{
+    width:600px ;
+    
+}
+#header a{
+    grid-row: 1;
+    width:600px ;
+    margin:  0 auto;
+}
+.menu1{grid-row: 1;
+    margin-right: 10px;
+}
+.menu{
+    margin-left: 10px;
+}
+#header div, .menu{
+    display: grid;
+    grid-auto-flow: column;
+    align-self: center;
+    gap: 15px;
+}
+nav{
+    grid-row: 2;
+    display: grid;
+    grid-auto-flow: column;
+   
+    grid-column: 2;
+    width: 300px;
+margin: 0 auto;
+}
+
+nav ul{
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    
+}
+nav ul li{
+    
+    margin:  0 auto;
+}
+aside{
+    
+    
+    
+}
+
+aside img {
+  display: none;
+}
+
+.annoncediv{
+    width: 1180px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: grey;
+}
+.annoncediv p{
+    display: grid;
+    justify-self: end;
+    writing-mode: vertical-lr;
+    position: relative;
+    left: 1180px;
+    top: 50px;
+    color: grey;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.fa-camera-retro{
+ position: relative;
+    right: 145px;
+    top: 20px;   
+}
+
+
+.byline{
+    width: 180px;
+    margin-left: 280px;
+    position: relative;
+    top: 275px;
+}
+
+.byline:first-child{
+    display: block;
+}
+.byline p {
+    display: inline;
+}
+.rusland{
+    width: 900px;
+    display: grid;
+    
+   margin-left: 450px;
+}
+.rusland img {
+    width: 900px;
+}
+
+.Udland {
+width: 180px;
+display: grid;
+grid-template-rows: repeat(2, auto);
+margin-left: 260px;
+position: relative;
+
+}
+.Udland img{
+    width: 50px;
+    padding-top: 10px;
+    border-radius: 100%;
+    height: 50px;
+    position: relative;
+    right: 16px;
+    
+}
+.udlandnavn{
+grid-row: 2;
+grid-column: 2;
+padding-top: 10px;
+position: relative;
+right: 65px;
+
+grid-column: 2;
+}
+.Udland hr {
+  opacity: 0;
+}
+.Udland h2{
+    border-bottom: 1px solid black;
+    
+}
+
+.twitter, .email{
+    position: relative;
+}
+
+.twitter{
+    bottom: 43px;
+
+    left: 18px;
+}
+.email{
+position: relative;
+right: 45px;
+bottom: 23px;
+}
+.fa-twitter{
+    position: relative;
+    left: 98px;
+    bottom: 41px;
+}
+
+.link{
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+}
+
+.paragrafdiv{
+    width: 900px;
+    margin-left: 450px;
+    position: relative;
+    bottom: 144px;
+}
+.paragraftext{
+    top: 10px;
+    position: relative;
+    
+}
+.paragrafdiv p{
+    display: inline;
+}
+.fa-comment{
+    margin-left: 660px;
+}
+
+.facebook-knap{
+    background-color: rgb(104, 104, 226);
+    width: 100px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    margin-left: 1030px;
+    position: relative;
+    bottom: 140px;
+}
+
+.facebook-knap p{
+    margin-bottom: 11px;
+    text-align: center;
+    color: white;
+    
+    
+}
+.twitter-knap p{
+    margin-bottom: 11px;
+    text-align: center;
+    
+    color: aliceblue;
+}
+.twitter-knap{
+    background-color: lightblue;
+    width: 100px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    margin-left: 1140px;
+    position: relative;
+    bottom: 185px;
+}
+
+
+
+
+.email-knap p{
+    margin-bottom: 11px;
+    text-align: center;
+    color: white;
+    
+}
+.email-knap{
+    background-color:grey;
+    width: 100px;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    margin-left: 1250px;
+    bottom: 230px;
+    position: relative;
+}
+
+.twitter-knap i{
+    left: 5px;
+    bottom: -17px;
+    color: white;
+}
+
+.facebook-knap i{
+    position: relative;
+    top: 16.5px;
+    left: 5px;
+    color: white;
+}
+
+.email-knap i{
+    position: relative;
+    top: 16px;
+    left: 2px;
+    color: white;
+}
+.section h2{
+    position: relative;
+    left: 25px;
+    
+
+}
+.senestenyt{
+    width: 200px;
+    position: relative;
+    bottom: 850px;
+    padding-bottom: 15px;
+    margin-left: 400px;
+}
+.senestenyt h3, .senestenyt hr{
+    width: 200px;
+}
+
+.udlandlogind,.udlandabonnement{
+    text-align: center;
+    bottom: 230px;
+    position: relative;
+}
+.udlandbutton{
+    display: grid;
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    align-content: center;
+    background-color: red;
+    color: white;
+    position: relative;
+    bottom: 230px;
+}
+.icons{
+    display: grid;
+}
+.fa-arrow-right{
+    display: none;
+}
+.fa-arrow-left{
+    display: none;
+}
+.icons .fa-link{
+    display: none;
+}
+.fikdulaesth2{
+    margin: 0 auto;
+    width: 1000px;
+    margin-left: 375px;
+}
+.fikdulaesthr{
+    margin: 0 auto;
+    width: 950px;
+    margin-left: 400px;
+}
+.fikdulaestdiv1{
+    width: 200px;
+    position: relative;
+left: 400px;
+}
+.fikdulaestdiv2{
+    width: 200px;
+    position: relative;
+left: 650px;
+bottom: 310px;
+}
+.fikdulaestdiv3{
+    width: 200px;
+    position: relative;
+    left: 900px;
+    bottom: 620px;
+}
+.fikdulaestdiv4{
+    width: 200px;
+    position: relative;
+    left: 1150px;
+    bottom: 930px;
+}
+
+.fikdulaestdiv1 img,.fikdulaestdiv2 img,.fikdulaestdiv3 img,.fikdulaestdiv4 img{
+    width: 200px;
+    
+}
+.informationdiv h3{text-align: end;}
+
+.informationdiv{
+    width: 670px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, auto);
+    margin-left: 675px;
+    position: relative;
+    bottom: 1450px;
+}
+.informationdiv img{
+    width: 200px;
+}
+.anbefal-titel,.anbefal,.anbefalinger{
+    width: 250px;
+    margin-left: 180px;
+    position: relative;
+    top: 42px;
+}
+
+.kommentare{
+    margin: 0 auto;
+    width: 900px;
+  
+    margin-left: 450px;
+  
+}
+.kommentare img{
+    width: 50px;
+    padding-top: 10px;
+    border-radius: 100%;
+    height: 50px;
+    position: relative;
+    right: 16px;
+}
+
+.brugerlogin{
+    margin-bottom: 50px;
+}
+.anbefalsection{
+    position: relative;
+    bottom: 2000px
+}
+footer{
+    position: relative;
+    bottom: 2000px;
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, auto);
+
+}
+footer img{
+    width: 250px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 50px;
+}
+footer div{
+    margin: 0 auto;
+   
+} 
+.bottomdiv{
+    text-align: center;
+    
+}
+footer button:last-child{
+    display: grid;
+    margin: 0 auto;
+}
